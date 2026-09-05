@@ -1,0 +1,8 @@
+{
+  "name": "JML Reconciliation Engine",
+  "description": "Project documentation and proposal for a university JML access reconciliation engine with accountable approvals.",
+  "requestFramePermissions": [],
+  "majorCapabilities": [
+    "MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"
+  ]
+}
