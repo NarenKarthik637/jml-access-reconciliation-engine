@@ -1,0 +1,230 @@
+{
+  "version": "2.1.0",
+  "policy_name": "University-Wide JML Role-Based & Attribute Access Control Policy",
+  "last_updated": "2026-09-28T08:00:00Z",
+  "risk_thresholds": {
+    "auto_remediate_risks": ["Low"],
+    "require_approval_risks": ["Medium", "High", "Critical"],
+    "approval_sla_hours": {
+      "Critical": 4,
+      "High": 12,
+      "Medium": 24
+    }
+  },
+  "roles": {
+    "Faculty": {
+      "description": "Full-time and tenured instructional and research faculty members",
+      "allowed_directory_groups": [
+        "faculty_general",
+        "academic_council",
+        "dept_faculty_group"
+      ],
+      "allowed_applications": [
+        "Canvas_LMS_Instructor",
+        "Banner_Grade_Submission",
+        "Edu_Suite_Pro",
+        "University_Email",
+        "Library_Research_Portal",
+        "Faculty_VPN"
+      ],
+      "approval_required_on_removal": [
+        "Banner_Grade_Submission",
+        "Research_Lab_SSH",
+        "Faculty_VPN"
+      ]
+    },
+    "Student": {
+      "description": "Enrolled undergraduate and graduate degree-seeking students",
+      "allowed_directory_groups": [
+        "student_body",
+        "dept_student_group"
+      ],
+      "allowed_applications": [
+        "Canvas_LMS_Student",
+        "Student_Self_Service_SIS",
+        "University_Email",
+        "Library_Standard"
+      ],
+      "approval_required_on_removal": [
+        "Student_Self_Service_SIS"
+      ]
+    },
+    "Alumni": {
+      "description": "Graduated students with perpetual limited alumni community privileges",
+      "allowed_directory_groups": [
+        "alumni_network"
+      ],
+      "allowed_applications": [
+        "Alumni_Email_Forwarding",
+        "Alumni_Portal",
+        "Transcript_Request_Portal"
+      ],
+      "approval_required_on_removal": [
+        "Faculty_VPN",
+        "Research_Lab_SSH",
+        "Banner_Grade_Submission",
+        "Finance_ERP_Dashboard",
+        "Canvas_LMS_Instructor"
+      ]
+    },
+    "Temporary_Researcher": {
+      "description": "Visiting scholars, grant-funded research associates, and postdocs",
+      "max_term_days": 365,
+      "allowed_directory_groups": [
+        "temporary_researchers",
+        "dept_research_group"
+      ],
+      "allowed_applications": [
+        "Research_Lab_SSH",
+        "HPC_Slurm_Cluster",
+        "Edu_Suite_Standard",
+        "Temporary_Email",
+        "Library_Research_Portal"
+      ],
+      "approval_required_on_removal": [
+        "Research_Lab_SSH",
+        "HPC_Slurm_Cluster"
+      ]
+    },
+    "Staff": {
+      "description": "Administrative, financial, HR, and technical support staff",
+      "allowed_directory_groups": [
+        "staff_general",
+        "dept_staff_group"
+      ],
+      "allowed_applications": [
+        "University_Email",
+        "Staff_Intranet",
+        "Finance_ERP_Dashboard",
+        "Workday_HR_Admin",
+        "Banner_SIS_Admin"
+      ],
+      "approval_required_on_removal": [
+        "Finance_ERP_Dashboard",
+        "Workday_HR_Admin",
+        "Banner_SIS_Admin"
+      ]
+    },
+    "Graduate_Teaching_Assistant": {
+      "description": "Hybrid student and instructional role for graduate teaching assistants",
+      "allowed_directory_groups": [
+        "student_body",
+        "dept_student_group",
+        "grad_assistants_group"
+      ],
+      "allowed_applications": [
+        "Canvas_LMS_Student",
+        "Canvas_LMS_Instructor",
+        "Student_Self_Service_SIS",
+        "Banner_Grade_Submission",
+        "University_Email",
+        "Library_Research_Portal"
+      ],
+      "approval_required_on_removal": [
+        "Banner_Grade_Submission"
+      ]
+    }
+  },
+  "entitlement_risk_catalog": {
+    "Banner_Grade_Submission": {
+      "category": "Application",
+      "risk_level": "Critical",
+      "description": "Authoritative grade submission and transcript modification rights"
+    },
+    "Finance_ERP_Dashboard": {
+      "category": "Application",
+      "risk_level": "Critical",
+      "description": "Access to general ledger, vendor payments, and university financial accounts"
+    },
+    "Research_Lab_SSH": {
+      "category": "Application",
+      "risk_level": "High",
+      "description": "Direct SSH access to secure biological/computational lab servers"
+    },
+    "HPC_Slurm_Cluster": {
+      "category": "Application",
+      "risk_level": "High",
+      "description": "High Performance Computing allocation and data cluster access"
+    },
+    "Faculty_VPN": {
+      "category": "Application",
+      "risk_level": "High",
+      "description": "Full-tunnel corporate VPN into university internal datacenter"
+    },
+    "Workday_HR_Admin": {
+      "category": "Application",
+      "risk_level": "Critical",
+      "description": "Human Resources record management and payroll master control"
+    },
+    "Banner_SIS_Admin": {
+      "category": "Application",
+      "risk_level": "High",
+      "description": "Student Information System administrative registrar privileges"
+    },
+    "Canvas_LMS_Instructor": {
+      "category": "Application",
+      "risk_level": "Medium",
+      "description": "Course content publishing, assignment grading, and student roster access"
+    },
+    "Canvas_LMS_Student": {
+      "category": "Application",
+      "risk_level": "Low",
+      "description": "Standard student course participation and homework submission"
+    },
+    "Student_Self_Service_SIS": {
+      "category": "Application",
+      "risk_level": "Low",
+      "description": "Course registration, tuition payment, and degree audit view"
+    },
+    "Edu_Suite_Pro": {
+      "category": "Application",
+      "risk_level": "Low",
+      "description": "Office productivity and collaboration suite with 1TB cloud storage"
+    },
+    "Edu_Suite_Standard": {
+      "category": "Application",
+      "risk_level": "Low",
+      "description": "Standard cloud document editing and team messaging"
+    },
+    "University_Email": {
+      "category": "Application",
+      "risk_level": "Low",
+      "description": "Official institutional @university.edu mailbox"
+    },
+    "Library_Research_Portal": {
+      "category": "Application",
+      "risk_level": "Low",
+      "description": "Academic journal databases (IEEE, Nature, JSTOR, ScienceDirect)"
+    },
+    "Library_Standard": {
+      "category": "Application",
+      "risk_level": "Low",
+      "description": "Standard library catalog search and physical book reservations"
+    },
+    "Alumni_Email_Forwarding": {
+      "category": "Application",
+      "risk_level": "Low",
+      "description": "Lifelong vanity email forwarder for alumni community"
+    },
+    "Alumni_Portal": {
+      "category": "Application",
+      "risk_level": "Low",
+      "description": "Alumni directory, networking, and reunion registration"
+    },
+    "Transcript_Request_Portal": {
+      "category": "Application",
+      "risk_level": "Low",
+      "description": "Self-service request portal for official verified diplomas and transcripts"
+    },
+    "Staff_Intranet": {
+      "category": "Application",
+      "risk_level": "Low",
+      "description": "Internal institutional policies, forms, and announcements"
+    },
+    "Temporary_Email": {
+      "category": "Application",
+      "risk_level": "Low",
+      "description": "Expiring email address for visiting scholars"
+    }
+  }
+}
