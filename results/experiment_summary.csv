@@ -1,0 +1,8 @@
+metric_category,metric_name,target_sla,baseline_value,prototype_value,delta,relative_improvement,target_met,unit
+Primary SLA Metric,Removal Within Target (48h) Rate,>= 90.0%,27.9%,95.5%,+67.6%,+242.2%,True,%
+Remediation Velocity,Mean Time to Access Remediation (MTTR),< 12.0 hours,88.4 hrs,1.6 hrs,-86.8 hrs,-98.2%,True,hours
+Security Posture,Orphaned Access Retention Rate,< 5.0%,85.2%,0.0%,-85.2%,-100.0%,True,%
+Security Posture,Excessive Access Retention Rate,< 10.0%,50.0%,18.8%,-31.2%,-62.5%,False,%
+Operational Overhead,Manual Review Touch Rate,< 60.0%,100.0%,65.7%,-34.3%,-34.3%,False,%
+Governance & Audit,Accountable Approval Logging,100.0%,0.0%,100.0%,+100.0%,N/A (New Capability),True,%
+Forensic Integrity,Audit Hash Coverage,100.0%,14.5%,100.0%,+85.5%,+589.7%,True,%

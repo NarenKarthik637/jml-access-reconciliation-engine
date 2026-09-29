@@ -1,0 +1,170 @@
+{
+  "evaluation_timestamp": "2026-09-28T14:30:00Z",
+  "target_hours_configured": 48.0,
+  "total_discrepancies_evaluated": 67,
+  "primary_metric": {
+    "name": "Removal-within-target rate (48 hours)",
+    "baseline_rate_pct": 27.91,
+    "prototype_rate_pct": 95.52,
+    "absolute_improvement_pts": 67.61,
+    "relative_improvement_pct": 242.24,
+    "hypothesis_confirmed": true
+  },
+  "velocity_metrics": {
+    "baseline_mttr_hours": 88.44,
+    "prototype_mttr_hours": 1.6,
+    "mttr_reduction_pct": 98.19,
+    "speedup_factor": 55.3
+  },
+  "risk_retention_metrics": {
+    "orphaned_access": {
+      "baseline_retention_rate_pct": 85.19,
+      "prototype_retention_rate_pct": 0.0,
+      "reduction_pts": 85.19
+    },
+    "excessive_access": {
+      "baseline_retention_rate_pct": 50.0,
+      "prototype_retention_rate_pct": 18.75,
+      "reduction_pts": 31.25
+    }
+  },
+  "classification_metrics": {
+    "prototype": {
+      "precision_pct": 100.0,
+      "recall_pct": 100.0,
+      "f1_score": 100.0,
+      "false_positive_rate_pct": 0.0,
+      "false_negative_rate_pct": 0.0
+    },
+    "baseline": {
+      "precision_pct": 90.32,
+      "recall_pct": 65.12,
+      "f1_score": 75.68,
+      "false_positive_rate_pct": 2.4,
+      "false_negative_rate_pct": 34.88
+    }
+  },
+  "comparison_matrix": [
+    {
+      "metric_category": "Primary SLA Metric",
+      "metric_name": "Removal Within Target (48h) Rate",
+      "target_sla": ">= 90.0%",
+      "baseline_value": "27.9%",
+      "prototype_value": "95.5%",
+      "delta": "+67.6%",
+      "relative_improvement": "+242.2%",
+      "target_met": true,
+      "unit": "%"
+    },
+    {
+      "metric_category": "Remediation Velocity",
+      "metric_name": "Mean Time to Access Remediation (MTTR)",
+      "target_sla": "< 12.0 hours",
+      "baseline_value": "88.4 hrs",
+      "prototype_value": "1.6 hrs",
+      "delta": "-86.8 hrs",
+      "relative_improvement": "-98.2%",
+      "target_met": true,
+      "unit": "hours"
+    },
+    {
+      "metric_category": "Security Posture",
+      "metric_name": "Orphaned Access Retention Rate",
+      "target_sla": "< 5.0%",
+      "baseline_value": "85.2%",
+      "prototype_value": "0.0%",
+      "delta": "-85.2%",
+      "relative_improvement": "-100.0%",
+      "target_met": true,
+      "unit": "%"
+    },
+    {
+      "metric_category": "Security Posture",
+      "metric_name": "Excessive Access Retention Rate",
+      "target_sla": "< 10.0%",
+      "baseline_value": "50.0%",
+      "prototype_value": "18.8%",
+      "delta": "-31.2%",
+      "relative_improvement": "-62.5%",
+      "target_met": false,
+      "unit": "%"
+    },
+    {
+      "metric_category": "Operational Overhead",
+      "metric_name": "Manual Review Touch Rate",
+      "target_sla": "< 60.0%",
+      "baseline_value": "100.0%",
+      "prototype_value": "65.7%",
+      "delta": "-34.3%",
+      "relative_improvement": "-34.3%",
+      "target_met": false,
+      "unit": "%"
+    },
+    {
+      "metric_category": "Governance & Audit",
+      "metric_name": "Accountable Approval Logging",
+      "target_sla": "100.0%",
+      "baseline_value": "0.0%",
+      "prototype_value": "100.0%",
+      "delta": "+100.0%",
+      "relative_improvement": "N/A (New Capability)",
+      "target_met": true,
+      "unit": "%"
+    },
+    {
+      "metric_category": "Forensic Integrity",
+      "metric_name": "Audit Hash Coverage",
+      "target_sla": "100.0%",
+      "baseline_value": "14.5%",
+      "prototype_value": "100.0%",
+      "delta": "+85.5%",
+      "relative_improvement": "+589.7%",
+      "target_met": true,
+      "unit": "%"
+    }
+  ],
+  "sla_sensitivity_curve": [
+    {
+      "target_hours": 4.0,
+      "baseline_rate_pct": 0.0,
+      "prototype_rate_pct": 94.03,
+      "advantage_points": 94.0
+    },
+    {
+      "target_hours": 8.0,
+      "baseline_rate_pct": 0.0,
+      "prototype_rate_pct": 95.52,
+      "advantage_points": 95.5
+    },
+    {
+      "target_hours": 12.0,
+      "baseline_rate_pct": 0.0,
+      "prototype_rate_pct": 95.52,
+      "advantage_points": 95.5
+    },
+    {
+      "target_hours": 24.0,
+      "baseline_rate_pct": 2.33,
+      "prototype_rate_pct": 95.52,
+      "advantage_points": 93.2
+    },
+    {
+      "target_hours": 36.0,
+      "baseline_rate_pct": 9.3,
+      "prototype_rate_pct": 95.52,
+      "advantage_points": 86.2
+    },
+    {
+      "target_hours": 48.0,
+      "baseline_rate_pct": 27.91,
+      "prototype_rate_pct": 95.52,
+      "advantage_points": 67.6
+    },
+    {
+      "target_hours": 72.0,
+      "baseline_rate_pct": 32.56,
+      "prototype_rate_pct": 95.52,
+      "advantage_points": 63.0
+    }
+  ]
+}

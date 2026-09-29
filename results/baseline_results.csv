@@ -1,0 +1,44 @@
+item_id,user_id,user_name,department,role,scenario,resource_type,resource_name,risk_level,discrepancy_type,eventually_removed,time_to_remediate_hours,removed_within_target,status,approval_logged,audit_trail_complete
+BASE-0001,U_EXC_001,Retired Faculty 1,Biology,Alumni,excessive_access,directory_group,faculty_general,Low,excessive_access,True,37.5,False,Removed_Late,False,False
+BASE-0002,U_EXC_001,Retired Faculty 1,Biology,Alumni,excessive_access,application_entitlement,Faculty_VPN,High,excessive_access,True,43.6,False,Removed_Late,False,False
+BASE-0003,U_EXC_001,Retired Faculty 1,Biology,Alumni,excessive_access,application_entitlement,Banner_Grade_Submission,Critical,excessive_access,True,40.4,False,Removed_Late,False,False
+BASE-0004,U_EXC_002,Retired Faculty 2,Mathematics,Alumni,excessive_access,directory_group,faculty_general,Low,excessive_access,True,41.2,False,Removed_Late,False,False
+BASE-0005,U_EXC_002,Retired Faculty 2,Mathematics,Alumni,excessive_access,application_entitlement,Faculty_VPN,High,excessive_access,True,33.5,False,Removed_Late,False,False
+BASE-0006,U_EXC_002,Retired Faculty 2,Mathematics,Alumni,excessive_access,application_entitlement,Banner_Grade_Submission,Critical,excessive_access,True,34.2,False,Removed_Late,False,False
+BASE-0007,U_EXC_003,Retired Faculty 3,Biology,Alumni,excessive_access,directory_group,faculty_general,Low,excessive_access,False,,False,Unresolved_Oversight,False,False
+BASE-0008,U_EXC_003,Retired Faculty 3,Biology,Alumni,excessive_access,application_entitlement,Faculty_VPN,High,excessive_access,True,65.8,False,Removed_Late,False,False
+BASE-0009,U_EXC_003,Retired Faculty 3,Biology,Alumni,excessive_access,application_entitlement,Banner_Grade_Submission,Critical,excessive_access,True,23.9,True,Removed_Within_SLA,False,False
+BASE-0010,U_EXC_004,Retired Faculty 4,Mathematics,Alumni,excessive_access,directory_group,faculty_general,Low,excessive_access,True,84.6,False,Removed_Late,False,False
+BASE-0011,U_EXC_004,Retired Faculty 4,Mathematics,Alumni,excessive_access,application_entitlement,Faculty_VPN,High,excessive_access,False,,False,Unresolved_Oversight,False,False
+BASE-0012,U_EXC_005,Retired Faculty 5,Biology,Alumni,excessive_access,directory_group,faculty_general,Low,excessive_access,True,77.9,False,Removed_Late,False,False
+BASE-0013,U_EXC_005,Retired Faculty 5,Biology,Alumni,excessive_access,application_entitlement,Faculty_VPN,High,excessive_access,True,40.1,False,Removed_Late,False,False
+BASE-0014,U_ORP_001,Departed Employee 1,Finance,Staff,orphaned_access,directory_group,staff_general,Medium,orphaned_access,True,128.5,False,Removed_Late,False,False
+BASE-0015,U_ORP_001,Departed Employee 1,Finance,Staff,orphaned_access,application_entitlement,University_Email,Low,orphaned_access,False,,False,Unresolved_Oversight,False,False
+BASE-0016,U_ORP_001,Departed Employee 1,Finance,Staff,orphaned_access,application_entitlement,Staff_Intranet,Low,orphaned_access,False,,False,Unresolved_Oversight,False,False
+BASE-0017,U_ORP_001,Departed Employee 1,Finance,Staff,orphaned_access,application_entitlement,Finance_ERP_Dashboard,Critical,orphaned_access,True,37.7,False,Removed_Late,False,False
+BASE-0018,U_ORP_002,Departed Employee 2,HR,Staff,orphaned_access,directory_group,staff_general,Medium,orphaned_access,True,194.6,False,Removed_Late,False,False
+BASE-0019,U_ORP_002,Departed Employee 2,HR,Staff,orphaned_access,application_entitlement,University_Email,Low,orphaned_access,True,176.8,False,Removed_Late,False,False
+BASE-0020,U_ORP_002,Departed Employee 2,HR,Staff,orphaned_access,application_entitlement,Staff_Intranet,Low,orphaned_access,True,126.2,False,Removed_Late,False,False
+BASE-0021,U_ORP_002,Departed Employee 2,HR,Staff,orphaned_access,application_entitlement,Workday_HR_Admin,Critical,orphaned_access,True,38.3,False,Removed_Late,False,False
+BASE-0022,U_ORP_003,Departed Employee 3,Finance,Staff,orphaned_access,directory_group,staff_general,Medium,orphaned_access,True,169.0,False,Removed_Late,False,False
+BASE-0023,U_ORP_003,Departed Employee 3,Finance,Staff,orphaned_access,application_entitlement,University_Email,Low,orphaned_access,True,65.5,False,Removed_Late,False,False
+BASE-0024,U_ORP_003,Departed Employee 3,Finance,Staff,orphaned_access,application_entitlement,Staff_Intranet,Low,orphaned_access,True,94.7,False,Removed_Late,False,False
+BASE-0025,U_ORP_003,Departed Employee 3,Finance,Staff,orphaned_access,application_entitlement,Finance_ERP_Dashboard,Critical,orphaned_access,False,,False,Unresolved_Oversight,False,False
+BASE-0026,U_ORP_004,Departed Employee 4,HR,Staff,orphaned_access,directory_group,staff_general,Medium,orphaned_access,False,,False,Unresolved_Oversight,False,False
+BASE-0027,U_ORP_004,Departed Employee 4,HR,Staff,orphaned_access,application_entitlement,University_Email,Low,orphaned_access,False,,False,Unresolved_Oversight,False,False
+BASE-0028,U_ORP_004,Departed Employee 4,HR,Staff,orphaned_access,application_entitlement,Staff_Intranet,Low,orphaned_access,True,136.3,False,Removed_Late,False,False
+BASE-0029,U_ORP_004,Departed Employee 4,HR,Staff,orphaned_access,application_entitlement,Workday_HR_Admin,Critical,orphaned_access,True,29.3,False,Removed_Late,False,False
+BASE-0030,U_ORP_005,Departed Employee 5,Finance,Staff,orphaned_access,directory_group,staff_general,Medium,orphaned_access,False,,False,Unresolved_Oversight,False,False
+BASE-0031,U_ORP_005,Departed Employee 5,Finance,Staff,orphaned_access,application_entitlement,University_Email,Low,orphaned_access,True,172.4,False,Removed_Late,False,False
+BASE-0032,U_ORP_005,Departed Employee 5,Finance,Staff,orphaned_access,application_entitlement,Staff_Intranet,Low,orphaned_access,True,133.1,False,Removed_Late,False,False
+BASE-0033,U_ORP_005,Departed Employee 5,Finance,Staff,orphaned_access,application_entitlement,Finance_ERP_Dashboard,Critical,orphaned_access,False,,False,Unresolved_Oversight,False,False
+BASE-0034,U_ORP_006,Departed Employee 6,HR,Staff,orphaned_access,directory_group,staff_general,Medium,orphaned_access,True,99.5,False,Removed_Late,False,False
+BASE-0035,U_ORP_006,Departed Employee 6,HR,Staff,orphaned_access,application_entitlement,University_Email,Low,orphaned_access,True,178.7,False,Removed_Late,False,False
+BASE-0036,U_ORP_006,Departed Employee 6,HR,Staff,orphaned_access,application_entitlement,Staff_Intranet,Low,orphaned_access,True,126.8,False,Removed_Late,False,False
+BASE-0037,U_ORP_006,Departed Employee 6,HR,Staff,orphaned_access,application_entitlement,Workday_HR_Admin,Critical,orphaned_access,True,46.3,False,Removed_Late,False,False
+BASE-0038,U_REJ_001,Research Exception User 1,Biology,Alumni,rejected_approval,application_entitlement,HPC_Slurm_Cluster,High,excessive_access,False,,False,Retained_Informal_Email,False,False
+BASE-0039,U_REJ_002,Research Exception User 2,Biology,Alumni,rejected_approval,application_entitlement,HPC_Slurm_Cluster,High,excessive_access,False,,False,Retained_Informal_Email,False,False
+BASE-0040,U_REJ_003,Research Exception User 3,Biology,Alumni,rejected_approval,application_entitlement,HPC_Slurm_Cluster,High,excessive_access,False,,False,Retained_Informal_Email,False,False
+BASE-0041,U_FAIL_001,Target API Failure User 1,Chemistry,Staff,failed_remediation,application_entitlement,Research_Lab_SSH,High,orphaned_access,False,,False,Failed_Manual_Execution,False,False
+BASE-0042,U_FAIL_002,Target API Failure User 2,Chemistry,Staff,failed_remediation,application_entitlement,Research_Lab_SSH,High,orphaned_access,False,,False,Failed_Manual_Execution,False,False
+BASE-0043,U_FAIL_003,Target API Failure User 3,Chemistry,Staff,failed_remediation,application_entitlement,Research_Lab_SSH,High,orphaned_access,False,,False,Failed_Manual_Execution,False,False

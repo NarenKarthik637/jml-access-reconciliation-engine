@@ -1,0 +1,68 @@
+item_id,user_id,user_name,department,role,scenario,resource_type,resource_name,risk_level,discrepancy_type,eventually_removed,time_to_remediate_hours,removed_within_target,status,approval_logged,audit_trail_complete
+PROTO-0001,U_EXC_001,Retired Faculty 1,Biology,Alumni,excessive_access,directory_group,faculty_general,Low,excessive_access,True,0.036,True,Auto_Remediated_Instant,False,True
+PROTO-0002,U_EXC_001,Retired Faculty 1,Biology,Alumni,excessive_access,application_entitlement,Banner_Grade_Submission,Critical,excessive_access,True,1.2,True,Approved_And_Remediated,True,True
+PROTO-0003,U_EXC_001,Retired Faculty 1,Biology,Alumni,excessive_access,application_entitlement,Faculty_VPN,High,excessive_access,True,2.0,True,Approved_And_Remediated,True,True
+PROTO-0004,U_EXC_002,Retired Faculty 2,Mathematics,Alumni,excessive_access,directory_group,faculty_general,Low,excessive_access,True,0.019,True,Auto_Remediated_Instant,False,True
+PROTO-0005,U_EXC_002,Retired Faculty 2,Mathematics,Alumni,excessive_access,application_entitlement,Banner_Grade_Submission,Critical,excessive_access,True,3.4,True,Approved_And_Remediated,True,True
+PROTO-0006,U_EXC_002,Retired Faculty 2,Mathematics,Alumni,excessive_access,application_entitlement,Faculty_VPN,High,excessive_access,True,3.2,True,Approved_And_Remediated,True,True
+PROTO-0007,U_EXC_003,Retired Faculty 3,Biology,Alumni,excessive_access,directory_group,faculty_general,Low,excessive_access,True,0.046,True,Auto_Remediated_Instant,False,True
+PROTO-0008,U_EXC_003,Retired Faculty 3,Biology,Alumni,excessive_access,application_entitlement,Banner_Grade_Submission,Critical,excessive_access,True,1.4,True,Approved_And_Remediated,True,True
+PROTO-0009,U_EXC_003,Retired Faculty 3,Biology,Alumni,excessive_access,application_entitlement,Faculty_VPN,High,excessive_access,True,2.4,True,Approved_And_Remediated,True,True
+PROTO-0010,U_EXC_004,Retired Faculty 4,Mathematics,Alumni,excessive_access,directory_group,faculty_general,Low,excessive_access,True,0.011,True,Auto_Remediated_Instant,False,True
+PROTO-0011,U_EXC_004,Retired Faculty 4,Mathematics,Alumni,excessive_access,application_entitlement,Faculty_VPN,High,excessive_access,True,1.8,True,Approved_And_Remediated,True,True
+PROTO-0012,U_EXC_005,Retired Faculty 5,Biology,Alumni,excessive_access,directory_group,faculty_general,Low,excessive_access,True,0.03,True,Auto_Remediated_Instant,False,True
+PROTO-0013,U_EXC_005,Retired Faculty 5,Biology,Alumni,excessive_access,application_entitlement,Faculty_VPN,High,excessive_access,True,1.2,True,Approved_And_Remediated,True,True
+PROTO-0014,U_ORP_001,Departed Employee 1,Finance,Staff,orphaned_access,directory_group,staff_general,Medium,orphaned_access,True,1.3,True,Approved_And_Remediated,True,True
+PROTO-0015,U_ORP_001,Departed Employee 1,Finance,Staff,orphaned_access,application_entitlement,University_Email,Low,orphaned_access,True,0.036,True,Auto_Remediated_Instant,False,True
+PROTO-0016,U_ORP_001,Departed Employee 1,Finance,Staff,orphaned_access,application_entitlement,Finance_ERP_Dashboard,Critical,orphaned_access,True,2.8,True,Approved_And_Remediated,True,True
+PROTO-0017,U_ORP_001,Departed Employee 1,Finance,Staff,orphaned_access,application_entitlement,Staff_Intranet,Low,orphaned_access,True,0.019,True,Auto_Remediated_Instant,False,True
+PROTO-0018,U_ORP_002,Departed Employee 2,HR,Staff,orphaned_access,directory_group,staff_general,Medium,orphaned_access,True,2.4,True,Approved_And_Remediated,True,True
+PROTO-0019,U_ORP_002,Departed Employee 2,HR,Staff,orphaned_access,application_entitlement,University_Email,Low,orphaned_access,True,0.042,True,Auto_Remediated_Instant,False,True
+PROTO-0020,U_ORP_002,Departed Employee 2,HR,Staff,orphaned_access,application_entitlement,Staff_Intranet,Low,orphaned_access,True,0.01,True,Auto_Remediated_Instant,False,True
+PROTO-0021,U_ORP_002,Departed Employee 2,HR,Staff,orphaned_access,application_entitlement,Workday_HR_Admin,Critical,orphaned_access,True,3.6,True,Approved_And_Remediated,True,True
+PROTO-0022,U_ORP_003,Departed Employee 3,Finance,Staff,orphaned_access,directory_group,staff_general,Medium,orphaned_access,True,2.7,True,Approved_And_Remediated,True,True
+PROTO-0023,U_ORP_003,Departed Employee 3,Finance,Staff,orphaned_access,application_entitlement,University_Email,Low,orphaned_access,True,0.024,True,Auto_Remediated_Instant,False,True
+PROTO-0024,U_ORP_003,Departed Employee 3,Finance,Staff,orphaned_access,application_entitlement,Finance_ERP_Dashboard,Critical,orphaned_access,True,1.6,True,Approved_And_Remediated,True,True
+PROTO-0025,U_ORP_003,Departed Employee 3,Finance,Staff,orphaned_access,application_entitlement,Staff_Intranet,Low,orphaned_access,True,0.048,True,Auto_Remediated_Instant,False,True
+PROTO-0026,U_ORP_004,Departed Employee 4,HR,Staff,orphaned_access,directory_group,staff_general,Medium,orphaned_access,True,1.7,True,Approved_And_Remediated,True,True
+PROTO-0027,U_ORP_004,Departed Employee 4,HR,Staff,orphaned_access,application_entitlement,University_Email,Low,orphaned_access,True,0.014,True,Auto_Remediated_Instant,False,True
+PROTO-0028,U_ORP_004,Departed Employee 4,HR,Staff,orphaned_access,application_entitlement,Staff_Intranet,Low,orphaned_access,True,0.014,True,Auto_Remediated_Instant,False,True
+PROTO-0029,U_ORP_004,Departed Employee 4,HR,Staff,orphaned_access,application_entitlement,Workday_HR_Admin,Critical,orphaned_access,True,3.7,True,Approved_And_Remediated,True,True
+PROTO-0030,U_ORP_005,Departed Employee 5,Finance,Staff,orphaned_access,directory_group,staff_general,Medium,orphaned_access,True,2.4,True,Approved_And_Remediated,True,True
+PROTO-0031,U_ORP_005,Departed Employee 5,Finance,Staff,orphaned_access,application_entitlement,University_Email,Low,orphaned_access,True,0.042,True,Auto_Remediated_Instant,False,True
+PROTO-0032,U_ORP_005,Departed Employee 5,Finance,Staff,orphaned_access,application_entitlement,Finance_ERP_Dashboard,Critical,orphaned_access,True,3.4,True,Approved_And_Remediated,True,True
+PROTO-0033,U_ORP_005,Departed Employee 5,Finance,Staff,orphaned_access,application_entitlement,Staff_Intranet,Low,orphaned_access,True,0.031,True,Auto_Remediated_Instant,False,True
+PROTO-0034,U_ORP_006,Departed Employee 6,HR,Staff,orphaned_access,directory_group,staff_general,Medium,orphaned_access,True,3.4,True,Approved_And_Remediated,True,True
+PROTO-0035,U_ORP_006,Departed Employee 6,HR,Staff,orphaned_access,application_entitlement,University_Email,Low,orphaned_access,True,0.025,True,Auto_Remediated_Instant,False,True
+PROTO-0036,U_ORP_006,Departed Employee 6,HR,Staff,orphaned_access,application_entitlement,Staff_Intranet,Low,orphaned_access,True,0.032,True,Auto_Remediated_Instant,False,True
+PROTO-0037,U_ORP_006,Departed Employee 6,HR,Staff,orphaned_access,application_entitlement,Workday_HR_Admin,Critical,orphaned_access,True,3.7,True,Approved_And_Remediated,True,True
+PROTO-0038,U_ORP_007,Expired Researcher 7,Biology,Temporary_Researcher,orphaned_access,directory_group,temporary_researchers,Medium,orphaned_access,True,2.5,True,Approved_And_Remediated,True,True
+PROTO-0039,U_ORP_007,Expired Researcher 7,Biology,Temporary_Researcher,orphaned_access,application_entitlement,Research_Lab_SSH,High,orphaned_access,True,3.8,True,Approved_And_Remediated,True,True
+PROTO-0040,U_ORP_007,Expired Researcher 7,Biology,Temporary_Researcher,orphaned_access,application_entitlement,Temporary_Email,Low,orphaned_access,True,0.033,True,Auto_Remediated_Instant,False,True
+PROTO-0041,U_ORP_007,Expired Researcher 7,Biology,Temporary_Researcher,orphaned_access,application_entitlement,HPC_Slurm_Cluster,High,orphaned_access,True,3.3,True,Approved_And_Remediated,True,True
+PROTO-0042,U_ORP_008,Expired Researcher 8,Computer Science,Temporary_Researcher,orphaned_access,directory_group,temporary_researchers,Medium,orphaned_access,True,0.9,True,Approved_And_Remediated,True,True
+PROTO-0043,U_ORP_008,Expired Researcher 8,Computer Science,Temporary_Researcher,orphaned_access,application_entitlement,Research_Lab_SSH,High,orphaned_access,True,1.8,True,Approved_And_Remediated,True,True
+PROTO-0044,U_ORP_008,Expired Researcher 8,Computer Science,Temporary_Researcher,orphaned_access,application_entitlement,Temporary_Email,Low,orphaned_access,True,0.022,True,Auto_Remediated_Instant,False,True
+PROTO-0045,U_ORP_008,Expired Researcher 8,Computer Science,Temporary_Researcher,orphaned_access,application_entitlement,HPC_Slurm_Cluster,High,orphaned_access,True,1.3,True,Approved_And_Remediated,True,True
+PROTO-0046,U_ORP_009,Expired Researcher 9,Biology,Temporary_Researcher,orphaned_access,directory_group,temporary_researchers,Medium,orphaned_access,True,1.4,True,Approved_And_Remediated,True,True
+PROTO-0047,U_ORP_009,Expired Researcher 9,Biology,Temporary_Researcher,orphaned_access,application_entitlement,Research_Lab_SSH,High,orphaned_access,True,1.4,True,Approved_And_Remediated,True,True
+PROTO-0048,U_ORP_009,Expired Researcher 9,Biology,Temporary_Researcher,orphaned_access,application_entitlement,Temporary_Email,Low,orphaned_access,True,0.021,True,Auto_Remediated_Instant,False,True
+PROTO-0049,U_ORP_009,Expired Researcher 9,Biology,Temporary_Researcher,orphaned_access,application_entitlement,HPC_Slurm_Cluster,High,orphaned_access,True,3.1,True,Approved_And_Remediated,True,True
+PROTO-0050,U_ORP_010,Expired Researcher 10,Computer Science,Temporary_Researcher,orphaned_access,directory_group,temporary_researchers,Medium,orphaned_access,True,1.8,True,Approved_And_Remediated,True,True
+PROTO-0051,U_ORP_010,Expired Researcher 10,Computer Science,Temporary_Researcher,orphaned_access,application_entitlement,Research_Lab_SSH,High,orphaned_access,True,2.2,True,Approved_And_Remediated,True,True
+PROTO-0052,U_ORP_010,Expired Researcher 10,Computer Science,Temporary_Researcher,orphaned_access,application_entitlement,Temporary_Email,Low,orphaned_access,True,0.018,True,Auto_Remediated_Instant,False,True
+PROTO-0053,U_ORP_010,Expired Researcher 10,Computer Science,Temporary_Researcher,orphaned_access,application_entitlement,HPC_Slurm_Cluster,High,orphaned_access,True,1.9,True,Approved_And_Remediated,True,True
+PROTO-0054,U_ORP_011,Expired Researcher 11,Biology,Temporary_Researcher,orphaned_access,directory_group,temporary_researchers,Medium,orphaned_access,True,3.3,True,Approved_And_Remediated,True,True
+PROTO-0055,U_ORP_011,Expired Researcher 11,Biology,Temporary_Researcher,orphaned_access,application_entitlement,Research_Lab_SSH,High,orphaned_access,True,3.1,True,Approved_And_Remediated,True,True
+PROTO-0056,U_ORP_011,Expired Researcher 11,Biology,Temporary_Researcher,orphaned_access,application_entitlement,Temporary_Email,Low,orphaned_access,True,0.034,True,Auto_Remediated_Instant,False,True
+PROTO-0057,U_ORP_011,Expired Researcher 11,Biology,Temporary_Researcher,orphaned_access,application_entitlement,HPC_Slurm_Cluster,High,orphaned_access,True,1.6,True,Approved_And_Remediated,True,True
+PROTO-0058,U_ORP_012,Expired Researcher 12,Computer Science,Temporary_Researcher,orphaned_access,directory_group,temporary_researchers,Medium,orphaned_access,True,2.8,True,Approved_And_Remediated,True,True
+PROTO-0059,U_ORP_012,Expired Researcher 12,Computer Science,Temporary_Researcher,orphaned_access,application_entitlement,Research_Lab_SSH,High,orphaned_access,True,1.6,True,Approved_And_Remediated,True,True
+PROTO-0060,U_ORP_012,Expired Researcher 12,Computer Science,Temporary_Researcher,orphaned_access,application_entitlement,Temporary_Email,Low,orphaned_access,True,0.025,True,Auto_Remediated_Instant,False,True
+PROTO-0061,U_ORP_012,Expired Researcher 12,Computer Science,Temporary_Researcher,orphaned_access,application_entitlement,HPC_Slurm_Cluster,High,orphaned_access,True,4.2,True,Approved_And_Remediated,True,True
+PROTO-0062,U_REJ_001,Research Exception User 1,Biology,Alumni,rejected_approval,application_entitlement,HPC_Slurm_Cluster,High,excessive_access,False,,False,Rejected_Retained_Exception,True,True
+PROTO-0063,U_REJ_002,Research Exception User 2,Biology,Alumni,rejected_approval,application_entitlement,HPC_Slurm_Cluster,High,excessive_access,False,,False,Rejected_Retained_Exception,True,True
+PROTO-0064,U_REJ_003,Research Exception User 3,Biology,Alumni,rejected_approval,application_entitlement,HPC_Slurm_Cluster,High,excessive_access,False,,False,Rejected_Retained_Exception,True,True
+PROTO-0065,U_FAIL_001,Target API Failure User 1,Chemistry,Staff,failed_remediation,application_entitlement,Research_Lab_SSH,High,orphaned_access,True,3.5,True,Recovered_After_Retry,True,True
+PROTO-0066,U_FAIL_002,Target API Failure User 2,Chemistry,Staff,failed_remediation,application_entitlement,Research_Lab_SSH,High,orphaned_access,True,3.3,True,Recovered_After_Retry,True,True
+PROTO-0067,U_FAIL_003,Target API Failure User 3,Chemistry,Staff,failed_remediation,application_entitlement,Research_Lab_SSH,High,orphaned_access,True,3.5,True,Recovered_After_Retry,True,True
